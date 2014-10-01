@@ -52,4 +52,7 @@
   <string name="oclick_disconnect_alert_summary">Avvisa quando si è fuori dalla portata</string>
   <string name="alert_category_title">Allarmi</string>
   <string name="action_category_title">Azioni</string>
+  <string name="hw_keys_title">Abilitazione Tasti Fisici</string>
+  <string name="hw_keys_summary">Deseleziona per disattivare i tasti fisici</string>
+
 </resources>

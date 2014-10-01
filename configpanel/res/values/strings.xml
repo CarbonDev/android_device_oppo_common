@@ -62,4 +62,10 @@
 
     <string name="alert_category_title">Alerts</string>
     <string name="action_category_title">Actions</string>
+
+    <string name="category_gestures_title">Gestures Settings</string>
+    <string name="category_hw_keys_title">Hardware Keys Settings</string>
+    <string name="hw_keys_title">Hardware keys enabled</string>
+    <string name="hw_keys_summary">Uncheck to completely disable hardware keys</string>
+
 </resources>

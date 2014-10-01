@@ -23,10 +23,12 @@ import java.io.File;
 
 import com.cyanogenmod.settings.device.utils.Constants;
 import com.cyanogenmod.settings.device.utils.FileUtils;
+import com.cyanogenmod.settings.device.utils.HwKeysPreference;
 
 public class Startup extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, final Intent intent) {
+        HwKeysPreference.restore(context);
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
             // Disable touchscreen gesture settings if needed
             if (!hasTouchscreenGestures()) {
